@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+/* reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* ------- */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90%;
+  max-width: 1440px;
+  padding: 40px 80px;
+  margin: 0 auto;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.image-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+img {
+  max-width: 540px;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 64px;
+  margin-bottom: 36px;
+  color: rgba(51, 51, 51, .9);
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  margin-bottom: 64px;
+  color: rgba(79,79,79,.9);
+}
+
+button {
+  font-family: 'Space Mono', monospace;
+  background: rgba(46, 49, 49, .9);
+  font-size: 21px;
+  text-transform: uppercase;
+  padding: 35px 20px;
+  color: white;
+  border: none;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: rgba(51,51,51,.9);
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .container{
+    padding: 20px 24px;
+  }
+
+  .message {
+    flex-direction: column;
+  }
+
+  .image-wrapper,
+  .text {
+    width: 100%;
+  }
+}
