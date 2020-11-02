@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
 ![screenshot](screenshot2.png)
 
 Here you are my first solo project. It's the first one I face alone, without the help of an online course I can follow through.
